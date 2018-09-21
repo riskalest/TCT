@@ -1,6 +1,6 @@
-Cloud Computing Architecture 
+﻿Cloud Computing Architecture 
 ============================
-![CCA]( )
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/TCT.jpeg)
 
 Disini akan dibahas cara memasang aplikasi open sourece layanan komputasi awan yang bernama Microsoft Azure.
 
@@ -29,15 +29,14 @@ Pengguna Azure dapat mengatur sumber daya yang akan digunakan pada layanan ini m
 
 Untuk mencoba menggunakan layanan Microsoft Azure, ada beberapa solusi yang dapat pembaca atau developer gunakan yaitu:
 
-    **Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial. Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan.
+    **Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial.Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan.
     **Untuk alternatif kedua** berlaku pada mahasiswa yang memiliki akun DreamSpark. Mahasiswa yang memiliki akun DreamSpark dapat mendaftar pada tautan berikut untuk mendapatkan akun Azure gratis yang dapat digunakan untuk beberapa layanan seperti Azure Web Apps, MySQL database, dan platform kolaborasi Visual Studio Online.
     **Selain itu,** bagi pembaca atau developer yang memiliki startup dapat mendaftarkan startup-nya di program BizSpark. Program ini menawarkan lisensi Visual Studio Ultimate + MSDN yang didalamnya termasuk fasilitas penggunaan layanan Microsoft Azure.
     **Terakhir,** bagi kalangan akademisi, khususnya dosen yang mengajar mata kuliah yang menggunakan platform Azure dapat juga mengajukan program Azure in Education. Kalangan akademisi dapat memanfaatkan program ini untuk kepentingan riset atau pengajaran.
 
 Setelah pembaca atau developer mendapatkan akun Microsoft Azure, anda dapat menggunakan layanan tersebut melalui Microsoft Azure Portal.
 
-![CCA]( )
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr1
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_1.jpg)
 
 Ketika pembaca atau developer berhasil masuk ke halaman Azure Portal, maka saatnya untuk memasang aplikasi CMS (content management system) pada Azure. Azure sendiri menyediakan banyak pilihan aplikasi yang dikelompokkan dalam layanan Marketplace.
 
@@ -49,8 +48,7 @@ Sebelum membuat layanan Azure Web Apps, langkah paling pertama adalah pembaca ha
 
 Untuk membuat database MySQL baru, pilih tombol “New” pada Azure Portal, kemudian pilih “Data + Storage”, dan pilih “MySQL Database”.
 
-![CCA]( )
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr2
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_1.jpg)
 
 Pada jendela “New MySQL Database” tambahkan beberapa informasi sebagai berikut:
 
@@ -69,13 +67,11 @@ Setelah database selesai dipersiapkan maka langkah selanjutnya adalah memasang W
 
 Dalam hal ini, pembaca dapat memilih “Web + Mobile”, kemudian “Marketplace”. Selain itu, pembaca dapat mencari aplikasi CMS yang akan dipasang pada Azure. Sebagai contohnya, pembaca dapat mengetikkan WordPress pada kotak pencarian. Selain WordPress, masih banyak aplikasi open source yang dapat pembaca pasang seperti Joomla, Moodle, Magento, dan lain sebagainya.
 
-![CCA]( )
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr2_1
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_2-1.jpg)
 
 Setelah pembaca menemukan WordPress pada halaman pencarian maka selanjutnya pilih aplikasi tersebut dan kemudian pilih tombol “Create”.
 
-![CCA]( )
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr2_2
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_2-2.jpg)
 
 Untuk membuat layanan Azure Web dan memasang aplikasi WordPress pada layanan tersebut, tambahkan informasi berikut ini:
 
@@ -85,15 +81,13 @@ Untuk membuat layanan Azure Web dan memasang aplikasi WordPress pada layanan ter
     Untuk pilihan lokasi dan paket, pilih lokasi data center yang sama dengan database yang sudah pembaca buat sebelumnya yaitu “South East Asia”, dan pilih paket yang gratis yaitu “F1”.
     Untuk database pilih MySQL database yang sudah pembaca buat sebelumnya.
 
-![CCA]( )	
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr2_3
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_2-3.jpg)
 
 Setelah semua informasi selesai dimasukan, kemudian tekan tombol “Create” maka Azure akan menyiapkan semua sumber daya yang dibutuhkan seperti database dan layanan Azure web apps. Selanjutnya akan dilakukan proses deployment aplikasi WordPress ke dalam layanan Azure web apps.
 
 Tunggu beberapa saat sampai proses deploying selesai dilakukan, nantinya pembaca akan dapat melihat aplikasi WordPress pada halaman dashboard dari Azure Portal.
 
-![CCA]( )
-gambarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr2_4
+![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_2-4.jpg)
 
 Untuk melakukan konfigurasi pada WordPress, pilih URL dari aplikasi yang sudah pembaca buat pada layanan Azure. Sebagai contoh alamat URL yang sudah saya buat adalah http://actualwpweb.azurewebsites.net. Maka akan muncul tampilan awal untuk instalasi aplikasi WordPress. Pembaca dapat mengikuti proses instalasi sampai aplikasi WordPress siap.
 
