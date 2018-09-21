@@ -29,10 +29,10 @@ Pengguna Azure dapat mengatur sumber daya yang akan digunakan pada layanan ini m
 
 Untuk mencoba menggunakan layanan Microsoft Azure, ada beberapa solusi yang dapat pembaca atau developer gunakan yaitu:
 
-**Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial.Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan.
-**Untuk alternatif kedua** berlaku pada mahasiswa yang memiliki akun DreamSpark. Mahasiswa yang memiliki akun DreamSpark dapat mendaftar pada tautan berikut untuk mendapatkan akun Azure gratis yang dapat digunakan untuk beberapa layanan seperti Azure Web Apps, MySQL database, dan platform kolaborasi Visual Studio Online.
-**Selain itu,** bagi pembaca atau developer yang memiliki startup dapat mendaftarkan startup-nya di program BizSpark. Program ini menawarkan lisensi Visual Studio Ultimate + MSDN yang didalamnya termasuk fasilitas penggunaan layanan Microsoft Azure.
-**Terakhir,** bagi kalangan akademisi, khususnya dosen yang mengajar mata kuliah yang menggunakan platform Azure dapat juga mengajukan program Azure in Education. Kalangan akademisi dapat memanfaatkan program ini untuk kepentingan riset atau pengajaran.
+..* **Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial.Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan.
+..* **Untuk alternatif kedua** berlaku pada mahasiswa yang memiliki akun DreamSpark. Mahasiswa yang memiliki akun DreamSpark dapat mendaftar pada tautan berikut untuk mendapatkan akun Azure gratis yang dapat digunakan untuk beberapa layanan seperti Azure Web Apps, MySQL database, dan platform kolaborasi Visual Studio Online.
+..* **Selain itu,** bagi pembaca atau developer yang memiliki startup dapat mendaftarkan startup-nya di program BizSpark. Program ini menawarkan lisensi Visual Studio Ultimate + MSDN yang didalamnya termasuk fasilitas penggunaan layanan Microsoft Azure.
+..* **Terakhir,** bagi kalangan akademisi, khususnya dosen yang mengajar mata kuliah yang menggunakan platform Azure dapat juga mengajukan program Azure in Education. Kalangan akademisi dapat memanfaatkan program ini untuk kepentingan riset atau pengajaran.
 
 Setelah pembaca atau developer mendapatkan akun Microsoft Azure, anda dapat menggunakan layanan tersebut melalui Microsoft Azure Portal.
 
@@ -42,7 +42,7 @@ Ketika pembaca atau developer berhasil masuk ke halaman Azure Portal, maka saatn
 
 Pada artikel ini saya akan menggunakan WordPress sebagai contohnya. Seperti sudah diketahui bersama  bahwa WordPress adalah platform CMS untuk membuat website yang berbasis teknologi open source seperti PHP dan MySQL. Untuk itu pembaca atau developer membutuhkan layanan cloud yang mendukung teknologi tersebut.
 
-###### Langkah 1: Membuat MySQL Database
+### Langkah 1: Membuat MySQL Database
 
 Sebelum membuat layanan Azure Web Apps, langkah paling pertama adalah pembaca harus menyiapkan database MySQL yang nantinya akan digunakan oleh aplikasi WordPress yang akan pengguna Azure buat.
 
@@ -61,7 +61,7 @@ Pada jendela “New MySQL Database” tambahkan beberapa informasi sebagai berik
 7. Untuk pilihan “Legal Terms”, pilih tombol “OK”.
 8. Langkah terakhir, tekan tombol “Create” untuk membuat database baru.
 	
-###### Langkah 2: Memasang WordPress pada layanan Azure Web
+### Langkah 2: Memasang WordPress pada layanan Azure Web
 
 Setelah database selesai dipersiapkan maka langkah selanjutnya adalah memasang WordPress pada layanan Azure Web. Untuk langkah awalnya adalah pembaca dapat membuka Azure portal, kemudian pilih tombol “New”, selanjutnya akan muncul pilihan layanan yang disediakan oleh Azure.
 
@@ -100,6 +100,9 @@ Pembaca atau developer juga dapat mengakses panel kontrol yang ada di Azure untu
 
 REFERENSI :
 ===========
+
+http://www.abdulhalimzhr.com/2015/07/cara-mendaftar-ke-windows-azure-vps.html
+
 https://teknojurnal.com/cara-memasang-aplikasi-open-source-pada-layanan-microsoft-azure/
 
 
