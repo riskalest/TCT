@@ -29,10 +29,13 @@ Pengguna Azure dapat mengatur sumber daya yang akan digunakan pada layanan ini m
 
 Untuk mencoba menggunakan layanan Microsoft Azure, ada beberapa solusi yang dapat pembaca atau developer gunakan yaitu:
 
-..* **Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial.Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan.
-..* **Untuk alternatif kedua** berlaku pada mahasiswa yang memiliki akun DreamSpark. Mahasiswa yang memiliki akun DreamSpark dapat mendaftar pada tautan berikut untuk mendapatkan akun Azure gratis yang dapat digunakan untuk beberapa layanan seperti Azure Web Apps, MySQL database, dan platform kolaborasi Visual Studio Online.
-..* **Selain itu,** bagi pembaca atau developer yang memiliki startup dapat mendaftarkan startup-nya di program BizSpark. Program ini menawarkan lisensi Visual Studio Ultimate + MSDN yang didalamnya termasuk fasilitas penggunaan layanan Microsoft Azure.
-..* **Terakhir,** bagi kalangan akademisi, khususnya dosen yang mengajar mata kuliah yang menggunakan platform Azure dapat juga mengajukan program Azure in Education. Kalangan akademisi dapat memanfaatkan program ini untuk kepentingan riset atau pengajaran.
+ **Pertama** adalah pembaca atau developer mendaftarkan dirinya di program free trial.Dengan mendaftar pada program ini, pembaca atau developer akan mendapatkan kredit senilai US$ 200 yang dapat dibelanjakan pada semua layanan Azure dalam waktu 1 bulan
+
+**Untuk alternatif kedua** berlaku pada mahasiswa yang memiliki akun DreamSpark. Mahasiswa yang memiliki akun DreamSpark dapat mendaftar pada tautan berikut untuk mendapatkan akun Azure gratis yang dapat digunakan untuk beberapa layanan seperti Azure Web Apps, MySQL database, dan platform kolaborasi Visual Studio Online.
+
+**Selain itu,** bagi pembaca atau developer yang memiliki startup dapat mendaftarkan startup-nya di program BizSpark. Program ini menawarkan lisensi Visual Studio Ultimate + MSDN yang didalamnya termasuk fasilitas penggunaan layanan Microsoft Azure.
+
+**Terakhir,** bagi kalangan akademisi, khususnya dosen yang mengajar mata kuliah yang menggunakan platform Azure dapat juga mengajukan program Azure in Education. Kalangan akademisi dapat memanfaatkan program ini untuk kepentingan riset atau pengajaran.
 
 Setelah pembaca atau developer mendapatkan akun Microsoft Azure, anda dapat menggunakan layanan tersebut melalui Microsoft Azure Portal.
 
