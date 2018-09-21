@@ -52,14 +52,14 @@ Untuk membuat database MySQL baru, pilih tombol “New” pada Azure Portal, kem
 
 Pada jendela “New MySQL Database” tambahkan beberapa informasi sebagai berikut:
 
-    1. Masukan nama database yang akan pembaca buat pada kotak “Database Name”. Ingat nama database yang telah dimasukan karena database tersebut akan digunakan pada langkah selanjutnya ketika memasang aplikasi WordPress di layanan Azure Web.
-    2. Untuk tipe database yang disediakan, pembaca dapat memilih “Shared”. Pilihan ini menunjukkan bahwa database pembaca akan disimpan pada server dengan arsitektur multi-tenant yang berarti server tersebut digunakan juga oleh pengguna lain. Secara default pilihan ini akan aktif karena kita menggunakan free MySQL database.
-    3. Untuk pilihan lokasi, pembaca dapat memilih lokasi data center terdekat dengan target pengguna website. Sebagai contoh saya mengasumsikan bahwa sebagian besar pengakses website yang saya buat berasal dari Indonesia maka saya akan memilih South East Asia sebagai lokasi dimana aplikasi saya akan diletakan.
-    4. Untuk pilihan “Pricing Tier”, pembaca dapat menyesuakan sesuai kebutuhan. Sebagai permulaannya, pembaca dapat memilih paket yang paling murah untuk menguji coba aplikasi yang dibuat. Selanjutnya pada fase produksi, pembaca dapat meningkatkan paket yang disesuaikan dengan kebutuhan (banyak pengguna, beban kerja server, dll).
-    5. “Resource group” digunakan untuk mengelompokan sumber daya yang pembaca buat pada layanan Azure agar pembaca lebih mudah mengatur dan mencari sumber daya tersebut.
-    6. Untuk pilihan “Pricing Tier”, pilih paket “Mercury” yang merupakan paket gratis dengan spesifikasi paling minimal dari layanan MySQL database di Azure. Untuk mengetahui paket-paket yang disediakan beserta harganya lihat tautan berikut.
-    7. Untuk pilihan “Legal Terms”, pilih tombol “OK”.
-    8. Langkah terakhir, tekan tombol “Create” untuk membuat database baru.
+1. Masukan nama database yang akan pembaca buat pada kotak “Database Name”. Ingat nama database yang telah dimasukan karena database tersebut akan digunakan pada langkah selanjutnya ketika memasang aplikasi WordPress di layanan Azure Web.
+2. Untuk tipe database yang disediakan, pembaca dapat memilih “Shared”. Pilihan ini menunjukkan bahwa database pembaca akan disimpan pada server dengan arsitektur multi-tenant yang berarti server tersebut digunakan juga oleh pengguna lain. Secara default pilihan ini akan aktif karena kita menggunakan free MySQL database.
+3. Untuk pilihan lokasi, pembaca dapat memilih lokasi data center terdekat dengan target pengguna website. Sebagai contoh saya mengasumsikan bahwa sebagian besar pengakses website yang saya buat berasal dari Indonesia maka saya akan memilih South East Asia sebagai lokasi dimana aplikasi saya akan diletakan.
+4. Untuk pilihan “Pricing Tier”, pembaca dapat menyesuakan sesuai kebutuhan. Sebagai permulaannya, pembaca dapat memilih paket yang paling murah untuk menguji coba aplikasi yang dibuat. Selanjutnya pada fase produksi, pembaca dapat meningkatkan paket yang disesuaikan dengan kebutuhan (banyak pengguna, beban kerja server, dll).
+5. “Resource group” digunakan untuk mengelompokan sumber daya yang pembaca buat pada layanan Azure agar pembaca lebih mudah mengatur dan mencari sumber daya tersebut.
+6. Untuk pilihan “Pricing Tier”, pilih paket “Mercury” yang merupakan paket gratis dengan spesifikasi paling minimal dari layanan MySQL database di Azure. Untuk mengetahui paket-paket yang disediakan beserta harganya lihat tautan berikut.
+7. Untuk pilihan “Legal Terms”, pilih tombol “OK”.
+8. Langkah terakhir, tekan tombol “Create” untuk membuat database baru.
 	
 ###### Langkah 2: Memasang WordPress pada layanan Azure Web
 
@@ -75,11 +75,11 @@ Setelah pembaca menemukan WordPress pada halaman pencarian maka selanjutnya pili
 
 Untuk membuat layanan Azure Web dan memasang aplikasi WordPress pada layanan tersebut, tambahkan informasi berikut ini:
 
-    Alamat URL dari aplikasi WordPress yang pembaca buat. Microsoft Azure menyediakan domain default dengan akhiran azurewebsites.net, untuk itu pembaca dapat menggunakan alamat domain ini atau menggunakan alamat domain pembaca sendiri.
-    Untuk pilihan subscription, pembaca dapat memilih sesuai dengan subscription yang pembaca miliki, misalnya seperti DreamSpark, atau Visual Studio MSDN.
-    Pada pilihan berikutnya masukan resource group yang sama dengan yang sudah pembaca buat ketika pembaca membuat MySQL database.
-    Untuk pilihan lokasi dan paket, pilih lokasi data center yang sama dengan database yang sudah pembaca buat sebelumnya yaitu “South East Asia”, dan pilih paket yang gratis yaitu “F1”.
-    Untuk database pilih MySQL database yang sudah pembaca buat sebelumnya.
+Alamat URL dari aplikasi WordPress yang pembaca buat. Microsoft Azure menyediakan domain default dengan akhiran azurewebsites.net, untuk itu pembaca dapat menggunakan alamat domain ini atau menggunakan alamat domain pembaca sendiri.
+Untuk pilihan subscription, pembaca dapat memilih sesuai dengan subscription yang pembaca miliki, misalnya seperti DreamSpark, atau Visual Studio MSDN.
+Pada pilihan berikutnya masukan resource group yang sama dengan yang sudah pembaca buat ketika pembaca membuat MySQL database.
+Untuk pilihan lokasi dan paket, pilih lokasi data center yang sama dengan database yang sudah pembaca buat sebelumnya yaitu “South East Asia”, dan pilih paket yang gratis yaitu “F1”.
+Untuk database pilih MySQL database yang sudah pembaca buat sebelumnya.
 
 ![CCA](https://github.com/riskalest/tct/blob/master/minggu-03/langkah_2-3.jpg)
 
