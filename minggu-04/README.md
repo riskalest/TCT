@@ -86,11 +86,11 @@ Tugas utama dari tim service dan support adalah bagaimana caranya agar setiap pe
 
 Dari tugas utama itu hal apa saja yang bisa di kelola oleh CRM di bagian Service dan Support?
 
-    Memanage case / problem yang datang dari pelanggan
-    Mamanage solusi dari case–case yang datang
-    Memanage solusi untuk case yang seringkali terjadi (FAQ)
-    Fast response/quick reply dari case yang terjadi
-    dll.
++ Memanage case / problem yang datang dari pelanggan
++ Mamanage solusi dari case–case yang datang
++ Memanage solusi untuk case yang seringkali terjadi (FAQ)
++ Fast response/quick reply dari case yang terjadi
++ dll.
 
 Selain marketing, sales dan service masih banyak lagi department atau divisi-divisi lain yang terbantu dengan CRM seperti Human Resource, Inventory, Order Management dll
 
