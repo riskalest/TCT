@@ -1,6 +1,6 @@
 Business Process as a Service (BPaaS)
 =====================================
-![logo](https://github.com/riskalest/tct/blob/master/Teknologi_Cloud.jpg)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-04/salesforce.png)
 
 #  **Salesforce**
 
@@ -29,7 +29,7 @@ Peningkatan efisiensi akan meningkatkan penjualan dan pengurangan biaya seiring 
 
 ## Mengenal Lebih Jauh Salesforce Sebagai CRM
 
-![logo](https://github.com/riskalest/tct/blob/master/Teknologi_Cloud.jpg)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
 
 Salesforce sebagai salah satu pemain dalam bisnis CRM menawarkan sebuah layanan untuk mengelola proses bisnis dari pra penjualan hingga pasca penjualan yang berbasis cloud dan saling terintegrasi dalam satu platform. Karena berbasis cloud maka user tidak perlu menginstal salesforce di tiap komputernya, cukup dengan sebuah browser maka dia dapat mengakses salesforce dari mana saja. Terintegrasi dalam satu platform maksudnya semua aplikasi (aplikasi untuk marketing, sales, service, Human Resource dll) tergabung dalam satu package salesforce yang sama, tidak terpisah-pisah sehingga satu CRM salesforce bisa digunakan oleh marketing, sales, service dsb. Hanya saja privileges nya saja yang dibedakan. Selain itu salesforce juga dapat diakses melalui mobile apps yang dikenal sebagai salesforce1. Sehingga salesforce dapat digunakan kapanpun dan dimanapun asalkan ada koneksi internet tentunya.
 
