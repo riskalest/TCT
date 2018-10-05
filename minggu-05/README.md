@@ -1,6 +1,5 @@
 Business Process as a Service (BPaaS)
 =====================================
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/salesforce.png)
 
 #  **jExcel Spreadsheed**
 
@@ -22,7 +21,7 @@ All trademarks belong to their respective owners.
 
 ## contoh tabel :
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-05/cara.png)
 
 <html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -43,7 +42,7 @@ $('#my').jexcel({ data:data, colWidths: [ 300, 80, 100 ] });
 </script>
 </html>
 
-
+![logo](https://github.com/riskalest/tct/blob/master/minggu-05/hasil.png)
 Terimakasih :)
 
 REFERENSI :
