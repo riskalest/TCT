@@ -94,14 +94,18 @@ Kode basic diatas menggunakan dua buah modul yakni ServerRequestInterfaces dan R
 
 Endpoint yang didefinisikan adalah /hello/{nama} dengan metode http GET. Untuk mendapatkan parameter pada url fungsi yang digunakan yaitu getAttribute(‘nama attribute/parameter’). 
 Untuk memberikan response kepada client digunakanlah fungsi Returning JSON dan jangan lupa mereturn response tersebut.
+
 Setelah dijalankan di browser dengan keyword : **http://localhost:8080/hello/abc**
 
+
 ![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
 ![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
 ![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
 
 
-###### Terimakasih :)
+
+#### Terimakasih :)
+
 
 REFERENSI :
 ===========
