@@ -90,13 +90,16 @@ return $newResponse;
 });
 $app->run();
 
+
+
 Kode basic diatas menggunakan dua buah modul yakni ServerRequestInterfaces dan ResponseInterfaces yang digunakan untuk menghandle request dan response.  Intances awal yang dibuat yaitu app() yang melakukan proses instansiasi(proses yang membuat object biasannya ditandai dengan “new” pada SlimApp.
+Endpoint yang didefinisikan adalah /hello/{nama} dengan metode http GET. Untuk mendapatkan parameter pada url fungsi yang digunakan yaitu getAttribute(‘nama attribute/parameter’). Untuk memberikan response kepada client digunakanlah fungsi Returning JSON dan jangan lupa mereturn response tersebut.
 
-Endpoint yang didefinisikan adalah /hello/{nama} dengan metode http GET. Untuk mendapatkan parameter pada url fungsi yang digunakan yaitu getAttribute(‘nama attribute/parameter’). 
-Untuk memberikan response kepada client digunakanlah fungsi Returning JSON dan jangan lupa mereturn response tersebut.
+#### Setelah dijalankan di browser dengan keyword : 
 
-Setelah dijalankan di browser dengan keyword : **http://localhost:8080/hello/abc**
+**http://localhost:8080/hello/abc**
 
+output
 
 ![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_3.PNG)
 
