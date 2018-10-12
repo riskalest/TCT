@@ -75,25 +75,26 @@ done maka slim framework siap untuk digunakan. Terdapat informasi bahwa server b
 
 Buat endpoint yang sesuai dengan spesifikasi web services / API(application programming interfaces) yang akan dibuat. Berikut ini adalah kode endpoint yang sesuai dengan spesifikasi api yang digunakan.
 
-<?php 
+```<?php 
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
-
-require './vendor/autoload.php';
-
-$app = new \Slim\App;
+```
+```require './vendor/autoload.php';
+```
+```$app = new \Slim\App;
 $app->get('/hello/{name}', function (Request $request, Response $response){
 $data = array('name' => 'Riska', 'age' => 20);
 $newResponse = $response->withJson($data);
-
-return $newResponse;
+```
+```return $newResponse;
 });
 $app->run();
-
+```
 
 
 Kode basic diatas menggunakan dua buah modul yakni ServerRequestInterfaces dan ResponseInterfaces yang digunakan untuk menghandle request dan response.  Intances awal yang dibuat yaitu app() yang melakukan proses instansiasi(proses yang membuat object biasannya ditandai dengan “new” pada SlimApp.
 Endpoint yang didefinisikan adalah /hello/{nama} dengan metode http GET. Untuk mendapatkan parameter pada url fungsi yang digunakan yaitu getAttribute(‘nama attribute/parameter’). Untuk memberikan response kepada client digunakanlah fungsi Returning JSON dan jangan lupa mereturn response tersebut.
+
 
 #### Setelah dijalankan di browser dengan keyword : 
 
@@ -107,6 +108,7 @@ output
 
 ![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_5.PNG)
 
+gambar diatas merupakan hasil dari programnya.
 
 #### Terimakasih :)
 
