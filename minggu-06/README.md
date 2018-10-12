@@ -78,15 +78,16 @@ Buat endpoint yang sesuai dengan spesifikasi web services / API(application prog
 ```<?php 
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
-```
-```require './vendor/autoload.php';
-```
-```$app = new \Slim\App;
+
+require './vendor/autoload.php';
+
+$app = new \Slim\App;
 $app->get('/hello/{name}', function (Request $request, Response $response){
 $data = array('name' => 'Riska', 'age' => 20);
 $newResponse = $response->withJson($data);
-```
-```return $newResponse;
+
+
+return $newResponse;
 });
 $app->run();
 ```
