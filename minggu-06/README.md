@@ -60,14 +60,14 @@ untuk php:
 Masuklah pada folder htdocs / www / apapun folder yang anda gunakan(lokasi web folder) kemudian install slim framework. perintah yang digunakan untuk mendownload slim framework adalah sebagai berikut ini
 **php composer.phar create-project slim/slim-skeleton tct**
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/salesforce.png)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_1.PNG)
 
 #### **jalankan php web server (built-in dari slim)**
 
 slim memiliki web server tersendiri (built-in). Sehingga kita perlu menjalankan web server tersebut untuk running slim framework tersebut. Stelah masuk ke folder yang memiliki file index.php, Perintah yang digunakan adalah sebagai berikut ini
 **php -S localhost:8080 -t public public/index.php**
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/salesforce.png)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_2.PNG)
 
 done maka slim framework siap untuk digunakan. Terdapat informasi bahwa server berjalan pada port 8080.  Kita dapat mengarahkan browser untuk mengakses halaman localhost:8080.  Maka akan tampak welcome page dari slim framework yang telah kita install pada folder tersebut.
 
@@ -98,10 +98,9 @@ Untuk memberikan response kepada client digunakanlah fungsi Returning JSON dan j
 Setelah dijalankan di browser dengan keyword : **http://localhost:8080/hello/abc**
 
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
-![logo](https://github.com/riskalest/tct/blob/master/minggu-04/process-cloud.png)
-
+![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_3.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_4.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_5.PNG)
 
 
 #### Terimakasih :)
