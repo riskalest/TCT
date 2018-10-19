@@ -37,7 +37,7 @@ echo json_encode($result);
 
 Tampilan json untuk menampilkan dari data tabel books.
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_1.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-07/1.PNG)
 
 
 
