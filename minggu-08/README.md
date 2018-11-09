@@ -51,7 +51,7 @@ $container['db'] = function ($c) {
 	#### Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari database, menerima request dari luar dan mengembalikan response ditulis di file **src/routes.php** :
 
 
-	$app->get('/buah', function (Request $request, Response $response) {
+	```$app->get('/buah', function (Request $request, Response $response) {
 	$query = $this->db->prepare('SELECT * FROM buah');
 	$result = $query->execute();
 	if ($result) {
@@ -73,7 +73,7 @@ $container['db'] = function ($c) {
 			'data' => null);
 	}
     return $response->withJson($data);
-});
+});```
 
 	#### HASIL
 	
