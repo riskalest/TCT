@@ -19,7 +19,9 @@ Buka Phpmyadmin, lalu buat database bernama tokobuku.
 
 Setelah itu buat tabel buah dengan 4 field:
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-07/1.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-08/tabel_buah.PNG)
+
+![logo](https://github.com/riskalest/tct/blob/master/minggu-08/isi_tabel.PNG)
 
 ## **Membuat Koneksi Database**
 
@@ -88,11 +90,8 @@ Ganti {id} dengan id dari buah yang ingin didapatkan
 
 Tampilan hasil untuk dari data tabel buah.
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-07/1.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-08/hasil.PNG)
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-07/1.PNG)
-
-![logo](https://github.com/riskalest/tct/blob/master/minggu-07/1.PNG)
 
 #### Terimakasih :)
 
