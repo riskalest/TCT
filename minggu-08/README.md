@@ -23,21 +23,21 @@ Setelah itu buat tabel buah dengan 4 field:
 
 ## **Membuat Koneksi Database**
 
-	####	Konstanta database, ditulis dalam  file **src/settings.php** :
+	#### Konstanta database, ditulis dalam  file **src/settings.php** :
 
-```// Db settings
+// Db settings
 'db' => [
     'host' => 'localhost',
     'user' => 'root',
     'pass' => '',
     'dbname' => 'first_restful_api',
-]```
+]
 
 
-	####	Sambungan ke MySQL di **src/dependencies.php**
+	#### Sambungan ke MySQL di **src/dependencies.php**
 
 
-```// PDO database library
+// PDO database library
 $container['db'] = function ($c) {
     $settings = $c->get('settings')['db'];
     $pdo = new PDO("mysql:host=" . $settings['host'] . ";dbname=" . $settings['dbname'],
@@ -45,13 +45,13 @@ $container['db'] = function ($c) {
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     return $pdo;
-};```
+};
 
 
-	####	Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari database, menerima request dari luar dan mengembalikan response ditulis di file **src/routes.php** :
+	#### Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari database, menerima request dari luar dan mengembalikan response ditulis di file **src/routes.php** :
 
 
-```$app->get('/buah', function (Request $request, Response $response) {
+	$app->get('/buah', function (Request $request, Response $response) {
 	$query = $this->db->prepare('SELECT * FROM buah');
 	$result = $query->execute();
 	if ($result) {
@@ -73,7 +73,7 @@ $container['db'] = function ($c) {
 			'data' => null);
 	}
     return $response->withJson($data);
-});```
+});
 
 	#### HASIL
 	
