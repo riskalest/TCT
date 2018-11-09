@@ -23,7 +23,7 @@ Setelah itu buat tabel buah dengan 4 field:
 
 ## **Membuat Koneksi Database**
 
-	Konstanta database, ditulis dalam  file **src/settings.php** :
+	####	Konstanta database, ditulis dalam  file **src/settings.php** :
 
 ```// Db settings
 'db' => [
@@ -34,7 +34,7 @@ Setelah itu buat tabel buah dengan 4 field:
 ]```
 
 
-Sambungan ke MySQL di **src/dependencies.php**
+	####	Sambungan ke MySQL di **src/dependencies.php**
 
 
 ```// PDO database library
@@ -48,7 +48,7 @@ $container['db'] = function ($c) {
 };```
 
 
-Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari database, menerima request dari luar dan mengembalikan response ditulis di file **src/routes.php** :
+	####	Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari database, menerima request dari luar dan mengembalikan response ditulis di file **src/routes.php** :
 
 
 ```$app->get('/buah', function (Request $request, Response $response) {
@@ -75,7 +75,8 @@ Semua kode yang digunakan untuk mendefinisikan route, mendapatkan data dari data
     return $response->withJson($data);
 });```
 
-
+	#### HASIL
+	
 Ada 3 kemungkinan response yang akan didapat seperti terlihat di atas. Kode 1 menandakan bahwa data berhasil didapatkan, kode 2 menandakan bahwa data tidak tersedia dan kode 100 menandakan bahwa ada yang error ketika query ke database.
 
 Mendapatkan semua buah
