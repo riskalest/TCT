@@ -12,13 +12,19 @@ Web 2.0 adalah pergerakan menuju web yang lebih sosial, kolaboratif, interaktif 
 
 ## Prinsip-prinsip Web 2.0
 
-	*   Web sebagai platform
-    * 	Data sebagai pengendali utama
-    * 	Efek jaringan diciptakan oleh arsitektur partisipasi
-    * 	Inovasi dalam perakitan sistem serta situs disusun dengan menyatukan fitur dari pengembang yang terdistribusi dan independen (semacam model pengembangan “open source”)
-    * 	Model bisnis yang ringan, yang dikembangkan dengan gabungan isi dan layanan
-    * 	Akhir dari siklus peluncuran (release cycle) perangkat lunak
-    * 	Mudah untuk digunakan dan diadopsi oleh user
+*	Web sebagai platform
+
+*	Data sebagai pengendali utama
+
+*	Efek jaringan diciptakan oleh arsitektur partisipasi
+
+*	Inovasi dalam perakitan sistem serta situs disusun dengan menyatukan fitur dari pengembang yang terdistribusi dan independen (semacam model pengembangan “open source”)
+
+*	Model bisnis yang ringan, yang dikembangkan dengan gabungan isi dan layanan
+
+*	Akhir dari siklus peluncuran (release cycle) perangkat lunak
+
+*	Mudah untuk digunakan dan diadopsi oleh user
 
 ## Teknologi AJAX
 
