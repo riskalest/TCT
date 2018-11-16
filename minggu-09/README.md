@@ -1,6 +1,6 @@
 Web 2.0
 =======
-![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_1.PNG)
+![logo](https://github.com/riskalest/tct/blob/master/minggu-09/Web-2.0.jpg)
 
 ## Apa itu Web 2.0?
 
@@ -12,13 +12,13 @@ Web 2.0 adalah pergerakan menuju web yang lebih sosial, kolaboratif, interaktif 
 
 ## Prinsip-prinsip Web 2.0
 
-    * W eb sebagai platform
-    * Data sebagai pengendali utama
-    * Efek jaringan diciptakan oleh arsitektur partisipasi
-    * Inovasi dalam perakitan sistem serta situs disusun dengan menyatukan fitur dari pengembang yang terdistribusi dan independen (semacam model pengembangan “open source”)
-    * Model bisnis yang ringan, yang dikembangkan dengan gabungan isi dan layanan
-    * Akhir dari siklus peluncuran (release cycle) perangkat lunak
-    * Mudah untuk digunakan dan diadopsi oleh user
+	*   Web sebagai platform
+    * 	Data sebagai pengendali utama
+    * 	Efek jaringan diciptakan oleh arsitektur partisipasi
+    * 	Inovasi dalam perakitan sistem serta situs disusun dengan menyatukan fitur dari pengembang yang terdistribusi dan independen (semacam model pengembangan “open source”)
+    * 	Model bisnis yang ringan, yang dikembangkan dengan gabungan isi dan layanan
+    * 	Akhir dari siklus peluncuran (release cycle) perangkat lunak
+    * 	Mudah untuk digunakan dan diadopsi oleh user
 
 ## Teknologi AJAX
 
@@ -41,7 +41,6 @@ Suatu web 2.0 biasanya digunakan sebagai akhir dari siklus peluncuran produk sof
 Kemudahan berinteraksi antara user dengan sistem merupakan tujuan dibangunnya teknologi Web 2.0. Interaksi tersebut tentunya haruslah diimbangi dengan kecepatan untuk mengakses, oleh karena itu diperlukan suatu bandwith yang cukup untuk loading data. Loading data tersebut dilakukan saat pertama kali membuka situs, data-data tersebut antara lain CSS, JavaScript, dan XML. Salah satu karakteristiknya adalah adanya dukungan pada pemrograman yang sederhana dan ide akan web service atau RSS. Ketersediaan RSS akan menciptakan kemudahan untuk di-remix oleh website lain dengan menggunakan tampilannya masing-masing dan dukungan pemrograman yang sederhana. Adanya kemajuan inovasi pada antar-muka di sisi pengguna merupakan karakter dari Web 2.0. Dukungan AJAX yang menggabungkan HTML, CSS, Javascript, dan XML pada Yahoo!Mail Beta dan Gmail membuat pengguna merasakan nilai lebih dari sekedar situs penyedia e-mail. Kombinasi media komunikasi seperti Instant Messenger (IM) dan Voice over IP (VoIP) akan semakin memperkuat karakter Web 2.0 di dalam situs tersebut.
 
 
-![logo](https://github.com/riskalest/tct/blob/master/minggu-06/TCT_per-6_1.PNG)
 
 
 #### Terimakasih :)
